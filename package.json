@@ -1,0 +1,29 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/mocha.js",
+    "cover": "istanbul cover _mocha test/mocha.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qianlanse/node-test.git"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.11"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qianlanse/node-test/issues"
+  },
+  "homepage": "https://github.com/qianlanse/node-test#readme"
+}
